@@ -1,7 +1,7 @@
 {
   "name": "next-flatten",
   "version": "0.0.1",
-  "description": "Flattens `array` a single level deep.",
+  "description": "Flattens `array` a single or multiple level deep.",
   "homepage": "https://github.com/afeiship/next-flatten",
   "author": {
     "name": "afei",

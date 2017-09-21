@@ -1,5 +1,5 @@
 # next-flatten
-> Flattens `array` a single level deep.
+> Flattens `array` a single or multiple level deep.
 
 
 ## usage:

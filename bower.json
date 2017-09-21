@@ -1,6 +1,6 @@
 {
   "name": "next-flatten",
-  "description": "Flattens `array` a single level deep.",
+  "description": "Flattens `array` a single or multiple level deep.",
   "main": "dist/next-flatten.js",
   "authors": [
     "afei"
