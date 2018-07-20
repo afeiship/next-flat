@@ -27,3 +27,14 @@ function flattenArrayOfArrays(a, r){
     return r;
 }
 ```
+
+
+## in es6:
+```js
+var arr1 = [ 1,2,3 ];
+var arr2 = [ 'ab','c', 1 ];
+var result = [ ...arr1, ...arr2 ];
+
+console.log(result);
+// [ 1,2,3, 'ab','c', 1];
+```

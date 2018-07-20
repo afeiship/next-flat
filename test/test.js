@@ -15,4 +15,10 @@ describe('next/flatten', function () {
     assert.deepEqual(rs, [1, 1.1, 2, 3, 4, 5]);
   });
 
+
+  it('flatten has repeat elements will not merge unique', function () {
+    var rs = nx.flatten([[1, 2, 3], [3, 4, 5]]); // [1, 2, 3, 4, 5]
+    assert.deepEqual(rs, [1, 2, 3, 3, 4, 5]);
+  });
+
 });
