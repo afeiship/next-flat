@@ -2,18 +2,18 @@
 > Flattens `array` a single or multiple level deep.
 
 
-## usage:
+## usage
 ```js
 var rs = nx.flatten([[1, 2, 3], [4, 5]]); 
 // [1, 2, 3, 4, 5]
 ```
 
 
-## resources:
+## resources
 + https://stackoverflow.com/questions/10865025/merge-flatten-an-array-of-arrays-in-javascript
 
 
-## other solution:
+## other solution
 ```js
 function flattenArrayOfArrays(a, r){
     if(!r){ r = []}
@@ -29,7 +29,7 @@ function flattenArrayOfArrays(a, r){
 ```
 
 
-## in es6:
+## in es6
 ```js
 var arr1 = [ 1,2,3 ];
 var arr2 = [ 'ab','c', 1 ];
