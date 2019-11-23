@@ -7,9 +7,6 @@ var rs = nx.flatten([[1, 2, 3], [4, 5]]);
 // [1, 2, 3, 4, 5]
 ```
 
-## resources
-+ https://stackoverflow.com/questions/10865025/merge-flatten-an-array-of-arrays-in-javascript
-
 ## other solution
 ```js
 function flattenArrayOfArrays(a, r){
@@ -34,3 +31,6 @@ var result = [ ...arr1, ...arr2 ];
 console.log(result);
 // [ 1,2,3, 'ab','c', 1];
 ```
+
+## resources
+- https://stackoverflow.com/questions/10865025/merge-flatten-an-array-of-arrays-in-javascript
