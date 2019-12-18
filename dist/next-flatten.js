@@ -1,8 +1,8 @@
 /*!
  * name: @feizheng/next-flatten
  * url: https://github.com/afeiship/next-flatten
- * version: 1.0.0
- * date: 2019-11-23T07:27:50.849Z
+ * version: 1.0.1
+ * date: 2019-12-18T10:53:21.736Z
  * license: MIT
  */
 
