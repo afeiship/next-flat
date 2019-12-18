@@ -1,6 +1,11 @@
 # next-flatten
 > Flattens `array` a single or multiple level deep.
 
+## installation
+```shell
+npm i -S @feizheng/next-flatten
+```
+
 ## usage
 ```js
 var rs = nx.flatten([[1, 2, 3], [4, 5]]); 
