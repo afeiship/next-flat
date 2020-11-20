@@ -1,15 +1,15 @@
 /*!
- * name: @feizheng/next-flatten
+ * name: @jswork/next-flatten
  * description: Flattens `array` a single or multiple level deep.
  * homepage: https://github.com/afeiship/next-flatten
- * version: 1.1.0
- * date: 2020-05-28T08:06:45.133Z
+ * version: 1.0.0
+ * date: 2020-11-20 21:19:03
  * license: MIT
  */
 
 (function () {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('@feizheng/next-js-core2');
+  var nx = global.nx || require('@jswork/next');
 
   nx.flatten = function (inArray) {
     return inArray.reduce(function (flat, toFlatten) {
@@ -21,5 +21,3 @@
     module.exports = nx.flatten;
   }
 })();
-
-//# sourceMappingURL=next-flatten.js.map
