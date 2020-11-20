@@ -3,7 +3,7 @@
  * description: Flattens `array` a single or multiple level deep.
  * homepage: https://github.com/afeiship/next-flatten
  * version: 1.0.0
- * date: 2020-11-20 21:19:03
+ * date: 2020-11-20 21:23:56
  * license: MIT
  */
 
