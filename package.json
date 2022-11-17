@@ -1,6 +1,6 @@
 {
   "name": "@jswork/next-flatten",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Flattens `array` a single or multiple level deep.",
   "homepage": "https://github.com/afeiship/next-flatten",
   "author": {
