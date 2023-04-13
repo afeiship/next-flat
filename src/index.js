@@ -1,14 +1,14 @@
-(function () {
-  var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('@jswork/next');
+import nx from '@jswork/next';
 
-  nx.flatten = function (inArray) {
-    return inArray.reduce(function (flat, toFlatten) {
-      return flat.concat(Array.isArray(toFlatten) ? nx.flatten(toFlatten) : toFlatten);
-    }, []);
-  };
+nx.flatten = function (inArray) {
+  if (inArray.flat) return inArray.flat(Infinity);
+  return inArray.reduce(function (flat, toFlatten) {
+    return flat.concat(Array.isArray(toFlatten) ? nx.flatten(toFlatten) : toFlatten);
+  }, []);
+};
 
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = nx.flatten;
-  }
-})();
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = nx.flatten;
+}
+
+export default nx.flatten;
