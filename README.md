@@ -15,7 +15,7 @@ npm install -S @jswork/next-flatten
 ```js
 import '@jswork/next-flatten';
 
-const res = nx.flatten([[1, 2, 3], [4, 5]]); 
+const res = nx.flat([[1, 2, 3], [4, 5]]); 
 // [1, 2, 3, 4, 5]
 ```
 

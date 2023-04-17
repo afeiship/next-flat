@@ -1,5 +1,5 @@
 {
-  "name": "@jswork/next-flatten",
+  "name": "@jswork/next-flat",
   "version": "1.0.2",
   "description": "Flattens `array` a single or multiple level deep.",
   "homepage": "https://js.work",
@@ -43,11 +43,5 @@
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
-  },
-  "keywords": [
-    "next",
-    "flatten",
-    "flat",
-    "array"
-  ]
+  }
 }
