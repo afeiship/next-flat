@@ -1,4 +1,4 @@
-# next-flatten
+# next-flat
 > Flattens `array` a single or multiple level deep.
 
 [![version][version-image]][version-url]
@@ -8,12 +8,12 @@
 
 ## installation
 ```bash
-npm install -S @jswork/next-flatten
+npm install -S @jswork/next-flat
 ```
 
 ## usage
 ```js
-import '@jswork/next-flatten';
+import '@jswork/next-flat';
 
 const res = nx.flat([[1, 2, 3], [4, 5]]); 
 // [1, 2, 3, 4, 5]
@@ -35,16 +35,16 @@ function flattenArrayOfArrays(a, r) {
 ```
 
 ## license
-Code released under [the MIT license](https://github.com/afeiship/next-flatten/blob/master/LICENSE.txt).
+Code released under [the MIT license](https://github.com/afeiship/next-flat/blob/master/LICENSE.txt).
 
-[version-image]: https://img.shields.io/npm/v/@jswork/next-flatten
-[version-url]: https://npmjs.org/package/@jswork/next-flatten
+[version-image]: https://img.shields.io/npm/v/@jswork/next-flat
+[version-url]: https://npmjs.org/package/@jswork/next-flat
 
-[license-image]: https://img.shields.io/npm/l/@jswork/next-flatten
-[license-url]: https://github.com/afeiship/next-flatten/blob/master/LICENSE.txt
+[license-image]: https://img.shields.io/npm/l/@jswork/next-flat
+[license-url]: https://github.com/afeiship/next-flat/blob/master/LICENSE.txt
 
-[size-image]: https://img.shields.io/bundlephobia/minzip/@jswork/next-flatten
-[size-url]: https://github.com/afeiship/next-flatten/blob/master/dist/next-flatten.min.js
+[size-image]: https://img.shields.io/bundlephobia/minzip/@jswork/next-flat
+[size-url]: https://github.com/afeiship/next-flat/blob/master/dist/next-flat.min.js
 
-[download-image]: https://img.shields.io/npm/dm/@jswork/next-flatten
-[download-url]: https://www.npmjs.com/package/@jswork/next-flatten
+[download-image]: https://img.shields.io/npm/dm/@jswork/next-flat
+[download-url]: https://www.npmjs.com/package/@jswork/next-flat
